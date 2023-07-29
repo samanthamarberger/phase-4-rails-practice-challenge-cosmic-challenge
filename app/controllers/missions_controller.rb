@@ -4,7 +4,6 @@ class MissionsController < ApplicationController
         mission = Mission.create!(mission_params)
         render json: mission.planet, status: :created
     end
-
     
 
     private
